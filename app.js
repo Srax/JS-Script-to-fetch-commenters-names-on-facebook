@@ -24,4 +24,4 @@ function saveToTxtFile(arr) {
 var nameArray = saveCommentersNamesToArray();
 saveToTxtFile(nameArray);
 
-console.log("Total Members: " + nameArray.length);
+console.log("Total Names: " + nameArray.length);
