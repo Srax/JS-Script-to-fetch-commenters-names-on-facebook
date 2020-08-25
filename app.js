@@ -1,4 +1,4 @@
- function saveCommentersNamesToArray() {
+function saveCommentersNamesToArray() {
     let foundElements = document.querySelectorAll('*[class^="_6qw4"]');
     let arrOfNames = [];
     if(foundElements != null) {
@@ -7,8 +7,8 @@
         	else {arrOfNames.push(foundElements[i].innerText.toString());}
         }
     }
-    return arrOfNames;
- }
+    	return arrOfNames;
+}
 
 function saveToTxtFile(arr) {
   var textDoc = document.createElement('a');
