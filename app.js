@@ -33,7 +33,6 @@ function loadAllComments() {
     if (loadMoreButtons != null && commentCountElement[0] != null) {
         console.log("Loading comments...");
         for (let i = 0; i < loadMoreButtons.length; i++) {
-            console.log(i);
             loadMoreButtons[i].firstChild.click();
         }
       loadAllComments();
